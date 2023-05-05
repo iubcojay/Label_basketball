@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2000</width>
+    <height>826</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>12</y>
+     <width>1431</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLineEdit" name="page"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="dir"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pb_pre">
+      <property name="text">
+       <string>←</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pb_next">
+      <property name="text">
+       <string>→</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1450</x>
+     <y>10</y>
+     <width>273</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_13">
+    <item>
+     <widget class="QLineEdit" name="skipline"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="skip">
+      <property name="text">
+       <string>skip</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>611</y>
+     <width>1405</width>
+     <height>182</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_12">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>red-1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb1">
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox1">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>black-2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb2">
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox2">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>yellow-3</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb3">
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox3">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>blue-4</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb4">
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox4">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>green-5</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb5">
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox5">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>gray-a</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb6">
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox6">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>white-b</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb7">
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox7">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>cyan-c</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb8">
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox8">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_25">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>magenta-d</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb9">
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox9">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_28">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>orange-e</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comb10">
+          <item>
+           <property name="text">
+            <string>跑位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>投篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>罚篮</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>盖帽</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>传球</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>防守</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>进攻</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>站位</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>挡拆</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox10">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>120</red>
+                <green>120</green>
+                <blue>120</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="tristate">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="modeLabel">
+   <property name="geometry">
+    <rect>
+     <x>1420</x>
+     <y>610</y>
+     <width>231</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>120</red>
+         <green>120</green>
+         <blue>120</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>25</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>不截图模式</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="undo1">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>580</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>撤销</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="undo2">
+   <property name="geometry">
+    <rect>
+     <x>1500</x>
+     <y>580</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>撤销</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="flashbutton">
+   <property name="geometry">
+    <rect>
+     <x>1410</x>
+     <y>770</y>
+     <width>221</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>应用</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="out1">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>580</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>导出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="out2">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>580</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>导出</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1410</x>
+     <y>680</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>120</red>
+         <green>120</green>
+         <blue>120</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>自动导出模式</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="choose">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>580</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择图像集</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
